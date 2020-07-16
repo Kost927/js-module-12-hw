@@ -18,3 +18,39 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+
+
+/* ============================================ */
+
+
+.title {
+text-align: center;
+font-size: 50px;
+font-size: 800;
+margin-right: 20px;
+}
+
+.wrapper, .wrapper-first {
+  display: flex;
+  justify-content: center;
+}
+/* .country-flag {
+  display: block;
+} */
+
+.main-info-list {
+  margin-right: 150px;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.info-description {
+  font-weight: 400;
+}
+
+/* .languages-list {
+  list-style: none;
+} */
+

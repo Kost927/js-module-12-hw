@@ -1,0 +1,18 @@
+<div class="wrapper-first">
+<h2 class="title">{{name}}</h2>
+<img src="{{flag}}" alt="country-flag" width="50">
+</div>
+<div class="wrapper">
+<ul class="main-info-list">
+<li class="main-info-item">Capital: <span class="info-description">{{capital}}</span></li>
+<li class="main-info-item">Population: <span class="info-description">{{population}}</span></li>
+<li class="main-info-item">language(s):
+    <ul class="languages-list">
+        {{#each languages}}
+        <li class="languages-item"> <span class="info-description">{{this.name}}</span></li>
+        {{/each}}
+    </ul>
+</li>
+</ul>
+<img src="{{flag}}" alt="country-flag" width="350">
+</div>
